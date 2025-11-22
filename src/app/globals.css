@@ -1,3 +1,15 @@
+@keyframes bounce-scale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+.animate-bounce-scale {
+  animation: bounce-scale 4s infinite ease-in-out;
+}
 @import "tailwindcss";
 @import "tw-animate-css";
 
